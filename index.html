@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<div class="banner">
+    <header>
+        <div class="container header-block">
+            <div class="logo">
+                <img src="./assets/logo.png"
+                     alt="Логотип компании Ремонт мебели"
+                />
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li>
+                        <a href="">О компании</a>
+                    </li>
+                    <li>
+                        <a href="">Рассчитайте стоимость</a>
+                    </li>
+                    <li>
+                        <a href="">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div class="close-icon">
+            ⨯
+        </div>
+        <ul class="sidebar-links">
+            <li>
+                <a href="">О компании</a>
+            </li>
+            <li>
+                <a href="">Рассчитайте стоимость</a>
+            </li>
+            <li>
+                <a href="">Галерея</a>
+            </li>
+            <li>
+                <a href="">Отзывы</a>
+            </li>
+            <li>
+                <a href="https://t.me/Damirziik">Контакты</a>
+            </li>
+        </ul>
+    </aside>
+        <section class="main-banner">
+        <div class="container">
+            <h1>
+                Ремонт и перетяжка <br> <span>мебели</span>
+            </h1>
+            <p>
+                Восстановим прежний вид старой мебели, <br>
+                смохрани ваш бюджет
+            </p>
+            <div class="quality">
+                <div>
+                    <img src="./assets/quality-price.png" alt="">
+                    <span>Самые низкие <br> цены</span>
+                </div>
+                <div>
+                    <img src="./assets/quality-materials.png" alt="">
+                    <span>Качественные <br> материалы</span>
+                </div>
+            </div>
+            <button>
+                Узнать стоимость
+            </button>
+        </div>
+    </section>
+</div>
+
+<section class="services">
+    <div class="container">
+        <h2>
+            Восстановим прежний вид старой мебели, <br>
+            сохраним до 70% вашего бюджета
+        </h2>
+        <div>
+            <div id="service-list"></div>
+            <form class="service-form">
+                <p>Хотите узнать стоимость?</p>
+                <span>
+                    Оставьте заявку и мы перезвоним Вам <br> через 5 минут
+                </span>
+                <div class="service-inputs">
+                    <input id="username" placeholder="Ваше имя" type="text">
+                    <input id="phone" placeholder="Ваш номер телефона" type="number">
+                </div>
+                <button id ="service-button">Узнать стоимость</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="works container">
+    <h3>
+        Наши работы говорят сами за себя
+    </h3>
+    <div class="filter">
+        <button>Диваны</button>
+        <button>Стулья</button>
+        <button>Кровати</button>
+        <button>Мебельная гарнитура</button>
+        <button>Все работы</button>
+    </div>
+    <div class="works-data">
+
+    </div>
+
+
+</section>
+<section class="attendance container">
+    <h4 class="title">
+        Наши услуги
+    </h4>
+    <div class="attendance-data"></div>
+</section>
+
+<script src="./scripts/sidebar.js"></script>
+<script src="./scripts/main.js"></script>
+<script src="./scripts/send-message.js"></script>
+</body>
+</html>
